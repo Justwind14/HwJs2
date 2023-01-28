@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="footer">
+        <h1>Всем привет!</h1>
+        <div class="sun">
+            <img src="/img/sun3.png" alt="">
+        </div>
+    </div>
+    <h2>Немного обо мне</h2>
+    <div class="biography">
+        <p>Меня зовут Михаил. Я <i>путешественник во времени</i>, который застрял в самом абсурдном мире,<br>который себе только возможно представить,так так мой <b>КВАЗИПУЛЬТ</b> <img src="https://s-gifts.ru/upload/resize_cache/iblock/8ca/839_560_1/8ca9022fa052ff91c109c5c8a79c02e9.jpg" alt=""> для перемещений вышел из строя.</p>
+    </div>
+    <div class="story">
+        <p>К сожалению, на одном из вокзалов у меня украли мой пространственный чемодан,<br>в котором находилась вся аппаратура. Сохранился лишь <b>Флюгегехаймен</b> <img src="/img/auf.jpg" alt="">,<br>с помощью которого я запечатлел несколько таких абсурдных ситуаций:</p>
+ 
+    </div>
+    <div class="photo-crazy">
+        <img src="/img/WHAT1.jpg" alt="">
+        <img src="/img/WHAT2.jpg" alt="">
+        <img src="/img/WHAT3.jpg" alt="">       
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="ican">
+        <h3>Что я умею?</h3>
+        <ul>
+            <li>ЛЮБИТЬ</li>
+            <li>ЦЕНИТЬ</li>
+            <li>СОСТРАДАТЬ</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="iwant">
+        <h3>Чего я хочу?</h3>
+        <ol>
+            <li>Stop</li>
+            <li>the</li>
+            <li>Madness</li>
+        </ol>
+    </div>
+    <hr>
+    <span>Click me</span>
+    <div id="gull" class="gull">
+        <img  class="object move-right" src="/img/bird.png" alt="">
+    </div>
+    <audio id="surprise" preload="auto" src="/sound/gullbird.mp3">
+    </audio>
+    <script>		
+		var gullbird = $("#surprise")[0];
+		$(".gull")
+        .mouseenter(function() {
+		    gullbird.play();
+	    });	
+	</script>
+</body>
+
+</html>

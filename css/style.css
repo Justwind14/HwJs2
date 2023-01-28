@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'PAC';
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'REU';
+	src: url(../fonts/IBMPlexMono-Italic.ttf);
+}
+
+
+
+body {
+    background-image: url(/img/nebo.jpg);
+    font-family: 'REU';
+    color: rgb(255, 113, 36);
+    text-shadow: 1px 1px 1px rgb(247, 255, 253);
+    font-size: 25px;
+}
+h1 {
+    margin-left: 42%;
+    font-family: 'PAC';
+    color: rgb(136, 62, 255);
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgb(255, 138, 138);
+
+
+}
+.biography {
+    font-family: 'REU';
+    text-align: center;
+
+}
+.story img {
+    width: 60px;
+}
+.story {
+    text-align: center;
+}
+.biography img {
+    width: 50px;
+}
+.photo-crazy {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.photo-crazy img {
+    width: 30%;
+    margin-right: 10px;
+
+}
+h2 {
+    font-family: 'PAC';
+    color: rgb(62, 255, 184);
+    text-shadow: 1px 1px 1px rgb(0, 136, 104);
+    font-size: 35px;
+    text-align: center;
+}
+h3 {
+    font-family: 'PAC';
+    font-size: 60px;
+}
+
+.ican, .iwant {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+/* АНИМАШКИ */
+.footer {
+    position: relative;
+    display: flex;
+    margin-bottom: none;
+}
+.sun img {
+    position: absolute;
+    width: 280px;
+}
+.sun {
+    /* width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 1px black solid;
+    border-radius: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    animation: form infinite 1.0s alternate;
+  
+}
+@keyframes form {
+    from {
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
+
+.gull {
+    position: relative;
+}
+.gull img {
+    width: 10%;
+}
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+}
+#gull:hover .move-right {
+    transform: translate(1600px,0) rotate(360deg);
+}
